@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+    >
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputusername"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextUsername"
+                android:hint="username"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputpassword"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPassword"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/buttonLogin"
+            android:onClick="validateAndLogin"
+            android:background="@drawable/login_button"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up as a Doctor"
+            android:id="@+id/buttonSignupDoctor"
+            android:onClick="signup"
+            android:drawableLeft="@drawable/doctor"
+            android:background="@drawable/login_button"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup as an Ordinaryuser"
+            android:id="@+id/buttonSignupOrdinaryUser"
+            android:onClick="signup"
+            android:drawableLeft="@drawable/user"
+            android:background="@drawable/login_button"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

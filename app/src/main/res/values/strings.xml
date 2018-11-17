@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">CAD predictor</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="info_1">Do you drink alcohol</string>
+    <string name="info_1_1">Yes ,all most everday </string>
+    <string name="info_1_2">Yes ,2&#8211;4 days a week</string>
+    <string name="info_1_3">Yes ,occasionally</string>
+    <string name="info_1_4">No ,I donot - drink at all</string>
+
+    <string name="info_2">Do you exercise</string>
+    <string name="info_2_1">Yes,I exercise everyday</string>
+    <string name="info_2_2">Yes ,2&#8211;3 days a week</string>
+    <string name="info_2_3">No,I donot exercise</string>
+
+    <string name="info_3">What kind of symptoms do you experience ?</string>
+    <string name="info_3_1">Chest pain</string>
+    <string name="info_3_2">Shortness of breath</string>
+    <string name="info_3_3">Sweating</string>
+    <string name="info_3_4">Nausea</string>
+
+    <string name="info_4">What kind of symptoms do you experience?</string>
+    <string name="info_4_1">Pain in the arms or shoulder</string>
+    <string name="info_4_2">Burning feeling in your chest</string>
+    <string name="info_4_3">Tightness</string>
+    <string name="info_4_4">Heaviness</string>
+
+    <string name="symptom_angina">We are looking for symptoms of Angina.Which symptoms do you experience? </string>
+    <string name="symptom_a_1">Chest pain</string>
+    <string name="symptom_a_2">indigestion</string>
+    <string name="symptom_a_3">heartburn</string>
+    <string name="symptom_a_4">weakness</string>
+    <string name="symptom_a_5">sweating</string>
+    <string name="symptom_a_6">shortness of breath.</string>
+    <string name="symptom_a_7">cramping</string>
+
+
+    <string name="symptom_heart_attack">We are looking for symptoms of Heart attack.\n Which symptoms do you experience?</string>
+    <string name="symptom_h_0">chest discomfort</string>
+    <string name="symptom_h_1">coughing</string>
+    <string name="symptom_h_2">dizziness</string>
+    <string name="symptom_h_3">vomiting</string>
+    <string name="symptom_h_4">face seems gray</string>
+    <string name="symptom_h_5">restlessness</string>
+    <string name="symptom_h_6">perspiration and clammy skin</string>
+    <string name="symptom_h_7">an overall feeling of being unwell</string>
+
+
+    <string name="symptom_dyspnea">We are looking for symptoms of dyspnea.\n Which symptoms do you experience?</string>
+    <string name="symptom_d_0">intense tightening in the chest</string>
+    <string name="symptom_d_1">air hunger</string>
+    <string name="symptom_d_2">feeling of suffocation</string>
+    <string name="symptom_d_3">breathless after activity </string>
+    <string name="symptom_d_4">short of breath sooner than you used to be after physical activity</string>
+
+
+    <string-array name="SEX">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="CHEST_PAIN_TYPE">
+        <item>typical angina</item>
+        <item>atypical angina</item>
+        <item>non-anginal pain</item>
+        <item>asymptomatic</item>
+    </string-array>
+
+    <string-array name="FASTING_BLOOD_SUGER">
+        <item>fasting blood sugar > 120 mg/dl</item>
+        <item>fasting blood sugar less than 120 mg/dl</item>
+    </string-array>
+
+    <string-array name="REST_ECG">
+        <item>normal</item>
+        <item>having ST-T wave abnormality</item>
+        <item>showing probable</item>
+    </string-array>
+
+    <string-array name="EXERCISE_INDUCED_ANGINA">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="SLOPE">
+        <item>upsloping</item>
+        <item>flat</item>
+        <item>downsloping</item>
+    </string-array>
+
+    <string-array name="THAL">
+        <item>normal</item>
+        <item>fixed defect</item>
+        <item>reversable defect</item>
+    </string-array>
+    <string name="title_activity_test_navigation">TestNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="prevention">
+        Up to 90% of cardiovascular disease may be preventable if established risk factors are avoided. Prevention involves adequate physical exercise, decreasing obesity, treating high blood pressure, eating a healthy diet, decreasing cholesterol levels, and stopping smoking. Medications and exercise are roughly equally effective. High levels of physical activity reduce the risk of coronary artery disease by about 25%.
+
+Most guidelines recommend combining these preventive strategies. A 2015 Cochrane Review found some evidence that such an approach might help with blood pressure, body mass index, and waist circumference. However, there was insufficient evidence to show an effect on mortality or actual cardiovascular events.
+
+In diabetes mellitus, there is little evidence that very tight blood sugar control improves cardiac risk although improved sugar control appears to decrease other problems such as kidney failure and blindness. The World Health Organization (WHO) recommends "low to moderate alcohol intake" to reduce risk of coronary artery disease while high intake increases the risk.
+    </string>
+    <string name="prevention_1">
+A diet high in fruits and vegetables decreases the risk of cardiovascular disease and death. Vegetarians have a lower risk of heart disease, possibly due to their greater consumption of fruits and vegetables. Evidence also suggests that the Mediterranean diet and a high fiber diet lower the risk.
+
+The consumption of trans fat (commonly found in hydrogenated products such as margarine) has been shown to cause a precursor to atherosclerosis and increase the risk of coronary artery disease.
+
+Evidence does not support a beneficial role for omega-3 fatty acid supplementation in preventing cardiovascular disease (including myocardial infarction and sudden cardiac death). There is tentative evidence that intake of menaquinone (Vitamin K2), but not phylloquinone (Vitamin K1), may reduce the risk of CAD mortality.
+    </string>
+
+    <string name="prevention_2">
+Secondary prevention is preventing further sequelae of already established disease. Lifestyle changes that have been shown to be effective to this goal include:
+
+    Weight control
+    Smoking cessation
+    Avoiding the consumption of trans fats (in partially hydrogenated oils)
+    Decrease psychosocial stress
+    Exercise; aerobic exercise, like walking, jogging, or swimming, can reduce the risk of mortality from coronary artery disease. Aerobic exercise can help decrease blood pressure and the amount of blood cholesterol (LDL) over time. It also increases HDL cholesterol which is considered as "good cholesterol". Separate to the question of the benefits of exercise; it is unclear whether doctors should spend time counseling patients to exercise. The U.S. Preventive Services Task Force found "insufficient evidence" to recommend that doctors counsel patients on exercise but "it did not review the evidence for the effectiveness of physical activity to reduce chronic disease, morbidity and mortality", it only examined the effectiveness of the counseling itself. The American Heart Association, based on a non-systematic review, recommends that doctors counsel patients on exercise.
+    </string>
+
+    <string name="risk_factor">
+        Coronary artery disease has a number of well determined risk factors. These include high blood pressure, smoking, diabetes, lack of exercise, obesity, high blood cholesterol, poor diet, depression, family history, and excessive alcohol. About half of cases are linked to genetics. Smoking and obesity are associated with about 36% and 20% of cases, respectively. Smoking just one cigarette per day about doubles the risk of CAD. Lack of exercise has been linked to 7–12% of cases. Exposure to the herbicide Agent Orange may increase risk. Both rheumatoid arthritis and systemic lupus erythematosus are independent risk factors as well.
+
+Job stress appears to play a minor role accounting for about 3% of cases. In one study, women who were free of stress from work life saw an increase in the diameter of their blood vessels, leading to decreased progression of atherosclerosis.In contrast, women who had high levels of work-related stress experienced a decrease in the diameter of their blood vessels and significantly increased disease progression. Having a type A behavior pattern, a group of personality characteristics including time urgency, competitiveness, hostility, and impatience, is linked to an increased risk of coronary disease.
+    </string>
+    <string name="risk_factor_1">
+
+    High blood cholesterol (specifically, serum LDL concentrations). HDL (high density lipoprotein) has a protective effect over development of coronary artery disease.
+    High blood triglycerides may play a role.
+    High levels of lipoprotein(a), a compound formed when LDL cholesterol combines with a protein known as apolipoprotein(a).
+Dietary cholesterol does not appear to have a significant effect on blood cholesterol and thus recommendations about its consumption may not be needed.Saturated fat is still a concern
+    </string>
+    <string name="risk_factor_2">
+        The heritability of coronary artery disease has been estimated between 40% and 60%. Genome-wide association studies have identified around 60 genetic susceptibility loci for coronary artery disease.
+    </string>
+    <string name="risk_factor_3">
+        
+    Endometriosis in women under the age of 40.
+    Depression and hostility appear to be risks.
+    The number of categories of adverse childhood experiences (psychological, physical, or sexual abuse; violence against mother; or living with household members who were substance abusers, mentally ill, suicidal, or incarcerated) showed a graded correlation with the presence of adult diseases including coronary artery (ischemic heart) disease.
+    Hemostatic factors: High levels of fibrinogen and coagulation factor VII are associated with an increased risk of CAD.
+    Low hemoglobin.
+    In the Asian population, the b fibrinogen gene G-455A polymorphism was associated with the risk of CHD.
+
+    </string>
+</resources>
